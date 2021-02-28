@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "e2e": "cypress open",
-    "one": "cypress run --spec cypress/integration/example/*.js --browser chrome"
+    "test:chrome": "cypress run --browser chrome"
   },
   "repository": {
     "type": "git",

@@ -8,7 +8,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress open",
+    "one": "cypress run --spec cypress/integration/test/first_test.js --browser chrome"
   },
   "repository": {
     "type": "git",
